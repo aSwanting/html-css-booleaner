@@ -13,7 +13,7 @@ header {
 }
 
 main, footer {
-    margin: 4px;
+    margin: 6px;
 }
 
 .header_logo {
@@ -111,13 +111,13 @@ figure p {
 .footer_img1, .footer_img2 {
     color: white;
     background-color: #20A9E5;
-    height: 200px;
-    width: 250px;
+    height: 160px;
+    width: 220px;
     padding: 10px 0px 0px 10px;
     margin-bottom: 12px;
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    font-weight: bold;
 }
 
 .footer_img1 {
