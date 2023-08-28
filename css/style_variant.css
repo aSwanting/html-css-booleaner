@@ -4,20 +4,28 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(240, 240, 240);
+}
+
 header {   
+    position: relative;
     background-color: #4EA0FF;
     background-image: url(../img/pattern.png);
     background-size: 350px;
     padding: 40px 10px 5px 5px;
-    margin-bottom: 20px;
-}
-
-main, footer {
-    margin: 6px;
 }
 
 .header_logo {
     height: 45px;
+}
+
+.inner_body {
+    background-color: #ffffff;
+    max-width: 90%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.5);    
 }
 
 .article_header {
@@ -49,9 +57,18 @@ main, footer {
     margin-bottom: 12px;
 }
 
-figure img {
+figure {
+    text-align: center;
+}
 
-    height: 315px;
+.figure_img1 {
+
+    width: 46.78%;
+}
+
+.figure_img2 {
+
+    width: 40%;
 }
 
 figure p {
