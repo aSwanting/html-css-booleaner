@@ -12,7 +12,7 @@ header {
     margin-bottom: 20px;
 }
 
-main {
+main, footer {
     margin: 4px;
 }
 
@@ -30,10 +30,14 @@ main {
     margin-bottom: 4px;
 }
 
+.article_author, .article_date {
+    color: grey;
+    font-weight: bold;
+}
+
 .article_author {
     font-size: 14px;
     line-height: 1.4em;
-    color: grey;
 }
 
 .author_highlight {
@@ -43,7 +47,6 @@ main {
 .article_date {
     font-size: 9px;
     margin-bottom: 12px;
-    color: grey;
 }
 
 figure img {
@@ -97,4 +100,30 @@ figure p {
 
 .article_table tbody tr:nth-child(odd) {
     background-color: #B1E5F2;
+}
+
+.footer_text {
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.footer_img1, .footer_img2 {
+    color: white;
+    background-color: #20A9E5;
+    height: 200px;
+    width: 250px;
+    padding: 10px 0px 0px 10px;
+    margin-bottom: 12px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer_img1 {
+    background-image: url(../img/monitor.jpg);
+}
+
+.footer_img2 {
+    background-image: url(../img/graph.jpg);
 }
