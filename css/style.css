@@ -56,4 +56,45 @@ figure p {
     font-size: 12px;
 }
 
+.article_text {
+    margin-bottom: 24px;
+}
 
+.article_highlight {
+
+    background-color: yellow;
+
+}
+
+.article_list {
+    margin-left: 30px;
+    margin-bottom: 24px;
+}
+
+.article_table {
+    table-layout: fixed;
+    border-spacing: 0;
+    margin-bottom: 24px;
+}
+
+.article_table th {
+    color: white;
+    background-color: #20A9E5;
+    text-align: left;
+}
+
+.article_table th:nth-child(1) {
+    width: 25%;
+}
+
+.article_table th:nth-child(2) {
+    width: 25%;
+}
+
+.article_table th:nth-child(3) {
+    width: 50%;
+}
+
+.article_table tbody tr:nth-child(odd) {
+    background-color: #B1E5F2;
+}
