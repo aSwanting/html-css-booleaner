@@ -9,8 +9,51 @@ header {
     background-image: url(../img/pattern.png);
     background-size: 350px;
     padding: 40px 10px 5px 5px;
+    margin-bottom: 20px;
+}
+
+main {
+    margin: 4px;
 }
 
 .header_logo {
     height: 45px;
 }
+
+.article_header {
+    margin-bottom: 20px;
+}
+
+.article_title {
+    font-size: 36px;
+    line-height: 0.9em;
+    margin-bottom: 4px;
+}
+
+.article_author {
+    font-size: 14px;
+    line-height: 1.4em;
+    color: grey;
+}
+
+.author_highlight {
+    color: #4EA0FF;
+}
+
+.article_date {
+    font-size: 9px;
+    margin-bottom: 12px;
+    color: grey;
+}
+
+figure img {
+
+    height: 315px;
+}
+
+figure p {
+
+    font-size: 12px;
+}
+
+
